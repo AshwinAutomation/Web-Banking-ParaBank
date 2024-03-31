@@ -1,137 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11032" started-at="2024-03-06T20:03:48 IST" finished-at="2024-03-06T20:03:59 IST">
+  <suite name="Default suite" duration-ms="42532" started-at="2024-03-28T15:28:24 IST" finished-at="2024-03-28T15:29:06 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11032" started-at="2024-03-06T20:03:48 IST" finished-at="2024-03-06T20:03:59 IST">
-      <class name="com.parabank.qa.base.TestBase">
-        <test-method status="FAIL" signature="initialization()[pri:0, instance:com.parabank.qa.base.TestBase@1990a65e]" name="initialization" duration-ms="10969" started-at="2024-03-06T20:03:48 IST" finished-at="2024-03-06T20:03:59 IST">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 122.0.6261.95 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HP01', ip: '192.168.42.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-GetHandleVerifier [0x0090A813+48355]
-(No symbol) [0x0089C4B1]
-(No symbol) [0x007A5358]
-(No symbol) [0x007C61AC]
-(No symbol) [0x007C1EF3]
-(No symbol) [0x007C0579]
-(No symbol) [0x007F0C55]
-(No symbol) [0x007F093C]
-(No symbol) [0x007EA536]
-(No symbol) [0x007C82DC]
-(No symbol) [0x007C93DD]
-GetHandleVerifier [0x00B6AABD+2539405]
-GetHandleVerifier [0x00BAA78F+2800735]
-GetHandleVerifier [0x00BA456C+2775612]
-GetHandleVerifier [0x009951E0+616112]
-(No symbol) [0x008A5F8C]
-(No symbol) [0x008A2328]
-(No symbol) [0x008A240B]
-(No symbol) [0x00894FF7]
-BaseThreadInitThunk [0x76DC6359+25]
-RtlGetAppContainerNamedObjectPath [0x76F087A4+228]
-RtlGetAppContainerNamedObjectPath [0x76F08774+180]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 122.0.6261.95 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HP01', ip: '192.168.42.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-GetHandleVerifier [0x0090A813+48355]
-(No symbol) [0x0089C4B1]
-(No symbol) [0x007A5358]
-(No symbol) [0x007C61AC]
-(No symbol) [0x007C1EF3]
-(No symbol) [0x007C0579]
-(No symbol) [0x007F0C55]
-(No symbol) [0x007F093C]
-(No symbol) [0x007EA536]
-(No symbol) [0x007C82DC]
-(No symbol) [0x007C93DD]
-GetHandleVerifier [0x00B6AABD+2539405]
-GetHandleVerifier [0x00BAA78F+2800735]
-GetHandleVerifier [0x00BA456C+2775612]
-GetHandleVerifier [0x009951E0+616112]
-(No symbol) [0x008A5F8C]
-(No symbol) [0x008A2328]
-(No symbol) [0x008A240B]
-(No symbol) [0x00894FF7]
-BaseThreadInitThunk [0x76DC6359+25]
-RtlGetAppContainerNamedObjectPath [0x76F087A4+228]
-RtlGetAppContainerNamedObjectPath [0x76F08774+180]
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.parabank.qa.base.TestBase.initialization(TestBase.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+    <test name="Default test" duration-ms="42532" started-at="2024-03-28T15:28:24 IST" finished-at="2024-03-28T15:29:06 IST">
+      <class name="com.parabank.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="setUP" is-config="true" duration-ms="9198" started-at="2024-03-28T15:28:24 IST" finished-at="2024-03-28T15:28:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="initialization" duration-ms="6125" started-at="2024-03-28T15:28:33 IST" finished-at="2024-03-28T15:28:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-      </class> <!-- com.parabank.qa.base.TestBase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="1716" started-at="2024-03-28T15:28:39 IST" finished-at="2024-03-28T15:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="setUP" is-config="true" duration-ms="7325" started-at="2024-03-28T15:28:41 IST" finished-at="2024-03-28T15:28:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="loginPageTitleTest" duration-ms="18" started-at="2024-03-28T15:28:48 IST" finished-at="2024-03-28T15:28:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="1202" started-at="2024-03-28T15:28:48 IST" finished-at="2024-03-28T15:28:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="setUP" is-config="true" duration-ms="6558" started-at="2024-03-28T15:28:49 IST" finished-at="2024-03-28T15:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="bankNameTest()[pri:2, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="bankNameTest" duration-ms="93" started-at="2024-03-28T15:28:56 IST" finished-at="2024-03-28T15:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="948" started-at="2024-03-28T15:28:56 IST" finished-at="2024-03-28T15:28:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="setUP" is-config="true" duration-ms="4969" started-at="2024-03-28T15:28:57 IST" finished-at="2024-03-28T15:29:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="loginTest" duration-ms="3384" started-at="2024-03-28T15:29:02 IST" finished-at="2024-03-28T15:29:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.parabank.qa.testcases.LoginPageTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="944" started-at="2024-03-28T15:29:05 IST" finished-at="2024-03-28T15:29:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
